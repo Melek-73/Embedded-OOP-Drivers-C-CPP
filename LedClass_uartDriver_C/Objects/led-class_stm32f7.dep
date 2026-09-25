@@ -1,0 +1,40 @@
+Dependencies for Project 'led-class', Target 'stm32f7': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (.\Led.c)(0x6AAACB59)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I drivers-I./RTE/_stm32f7-IC:/Users/foura/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/foura/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include-D__UVISION_VERSION="543" -DSTM32F746xx -D_RTE_-o ./objects/led.o -MMD)
+I (Led.h)(0x6AB4E306)
+I (uart.h)(0x6AA6F1FC)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h)(0x6A72444F)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f746xx.h)(0x6A72444F)
+I (C:\Users\foura\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm7.h)(0x696210DB)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h)(0x6A72444F)
+F (.\Led.h)(0x6AB4E306)()
+F (.\main.c)(0x6AB4FA61)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I drivers-I./RTE/_stm32f7-IC:/Users/foura/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/foura/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include-D__UVISION_VERSION="543" -DSTM32F746xx -D_RTE_-o ./objects/main.o -MMD)
+I (Led.h)(0x6AB4E306)
+I (uart.h)(0x6AA6F1FC)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h)(0x6A72444F)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f746xx.h)(0x6A72444F)
+I (C:\Users\foura\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm7.h)(0x696210DB)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h)(0x6A72444F)
+I (PowerLed.h)(0x6AB4F18E)
+F (.\PowerLed.c)(0x6AB4F762)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I drivers-I./RTE/_stm32f7-IC:/Users/foura/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/foura/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include-D__UVISION_VERSION="543" -DSTM32F746xx -D_RTE_-o ./objects/powerled.o -MMD)
+I (PowerLed.h)(0x6AB4F18E)
+I (Led.h)(0x6AB4E306)
+I (uart.h)(0x6AA6F1FC)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h)(0x6A72444F)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f746xx.h)(0x6A72444F)
+I (C:\Users\foura\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm7.h)(0x696210DB)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h)(0x6A72444F)
+F (.\PowerLed.h)(0x6AB4F18E)()
+F (.\uart.c)(0x6AA6F1F9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I drivers-I./RTE/_stm32f7-IC:/Users/foura/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/foura/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include-D__UVISION_VERSION="543" -DSTM32F746xx -D_RTE_-o ./objects/uart.o -MMD)
+I (uart.h)(0x6AA6F1FC)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h)(0x6A72444F)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f746xx.h)(0x6A72444F)
+I (C:\Users\foura\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm7.h)(0x696210DB)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h)(0x6A72444F)
+F (.\uart.h)(0x6AA6F1FC)()
+F (RTE/Device/STM32F746NGHx/startup_stm32f746xx.s)(0x6A72444F)(--target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_stm32f7-IC:/Users/foura/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/foura/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"STM32F746xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f746xx.o)
+F (RTE/Device/STM32F746NGHx/system_stm32f7xx.c)(0x6A72444F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I drivers-I./RTE/_stm32f7-IC:/Users/foura/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/foura/AppData/Local/Arm/Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include-D__UVISION_VERSION="543" -DSTM32F746xx -D_RTE_-o ./objects/system_stm32f7xx.o -MMD)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h)(0x6A72444F)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f746xx.h)(0x6A72444F)
+I (C:\Users\foura\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm7.h)(0x696210DB)
+I (C:\Users\foura\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h)(0x6A72444F)
