@@ -409,6 +409,16 @@
               <FileType>5</FileType>
               <FilePath>.\PowerLed.h</FilePath>
             </File>
+            <File>
+              <FileName>MedicalLed.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MedicalLed.c</FilePath>
+            </File>
+            <File>
+              <FileName>MedicalLed.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\MedicalLed.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

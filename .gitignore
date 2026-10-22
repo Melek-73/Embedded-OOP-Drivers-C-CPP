@@ -1,0 +1,27 @@
+
+# Generated build directories, at any level
+**/Objects/
+**/Listings/
+**/build/
+
+# Compiled files
+*.o
+*.obj
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+*.dep
+*.lnp
+*.iex
+
+# Personal Keil workspace settings
+*.uvguix.*
+*.uvoptx
+
+# Temporary files
+*.bak
+*.tmp

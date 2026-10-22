@@ -52,6 +52,11 @@ led_elec_type Power_Led_getVoltage(PowerLed_Type *const me);
 
 led_elec_type Power_Led_computePower(PowerLed_Type *const me);
 
+//Compute efficiency func
+uint32_t PowerLed_computeEfficiency(PowerLed_Type const * const me);
+//Run diagnostics func
+void PowerLed_runDiagnostics(PowerLed_Type const * const me);
+
 
 
 

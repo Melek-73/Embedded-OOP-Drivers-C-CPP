@@ -6,7 +6,15 @@ void PowerLed_ctor(PowerLed_Type * const me,
 									 LedDiamter_Type _diameter,
 									 LedCurrent_Type _current,
 									 LedVoltage_Type _voltage){
+										 
+	static const struct LedVtable vtable={
+		(void (*)(Led_Type const * const m))&PowerLed_runDiagnostics,
+		(uint32_t (*)(Led_Type const * const m))&PowerLed_computeEfficiency,
+	};
+	
 	Led_ctor(&me->super,_color,_state);
+	me->super.vptr = &vtable;
+	
 	me->diameter	=_diameter;
 	me->current = _current;
 	me->voltage = _voltage;										 
@@ -27,6 +35,25 @@ void PowerLed_setVoltage(PowerLed_Type * const me, LedVoltage_Type _voltage){
 led_elec_type Power_Led_computePower(PowerLed_Type *const me){
 	return (me->current)*(me->voltage);
 }
+
+uint32_t PowerLed_computeEfficiency(PowerLed_Type const * const me){
+	/*Dummy efficiency computation*/
+	const int8_t input = 120;
+	const int8_t output = 86;
+	
+	int8_t eff = ((input/output)*100)- ((int8_t)(me->current)/2);
+	printf("Power LED module efficiency is %d....\n\r",eff);
+	return eff;
+}
+
+void PowerLed_runDiagnostics(PowerLed_Type const * const me){
+	/*Dummy diagnostics sequence*/
+	for (int i=0;i<(int)me->current;i++){
+		printf("Power LED Diagnostics stage: %d...\n\r",i);
+	}
+}
+
+
 /*
 
 

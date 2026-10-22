@@ -1,8 +1,20 @@
 #include 	"Led.h"
 #include <stdio.h>
 
+static void run_diagnostics(Led_Type const * const me);
+static uint32_t compute_efficiency(Led_Type const * const me);
+
 //function constructor
 void Led_ctor(Led_Type * const me,LedColor_Type _color, LedState_Type _state){
+	
+	/*Initialize virtual table*/
+	static const struct LedVtable vtable={
+		&run_diagnostics,
+		&compute_efficiency,
+	};
+	
+	me->vptr = &vtable;
+	
 	me->color=_color;
 	me->state=_state;
 	
@@ -115,3 +127,26 @@ void Led_setState(Led_Type * const me,LedState_Type _state){
 LedState_Type Led_getState(Led_Type * const me){
 	return me->state;
 }
+
+static void run_diagnostics(Led_Type const * const me){
+	(void)me;
+}
+static uint32_t compute_efficiency(Led_Type const * const me){
+	(void)me;
+	return 0U;
+}
+
+/*Run System diagnostics , Polymorphism at work*/
+void runSystemDiagnostics(Led_Type const *led_modules[]){
+	int i;
+	for(i=0 ;led_modules[i] != (Led_Type *)0;i++){
+		Led_runDiagnostics_vcall(led_modules[i]);
+	}
+}
+void computeLedEffs(Led_Type const *led_modules[]){
+	int i;
+	for(i=0 ;led_modules[i] != (Led_Type *)0;i++){
+		Led_computeEffi_vcall(led_modules[i]);
+	}
+}
+
